@@ -6,6 +6,7 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu'; 
 //@BlueprintImportInsertion
 import BlankScreen213361Navigator from '../features/BlankScreen213361/navigator';
+import {demo}  from '../features/BlankScreen213361/screens/constants';
 
 /**
  * new navigators can be imported here
