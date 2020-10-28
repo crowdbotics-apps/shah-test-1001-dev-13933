@@ -16,6 +16,8 @@ import Slider from '@react-native-community/slider';
 import { CheckBox } from 'react-native-elements';
 import {SlideMenuIcon} from '../../../navigator/slideMenuIcon';
 
+import { demo } from '../../../demo';
+
 export default class Blank extends React.Component {
   static navigationOptions = ({navigation}) => {
     return {
@@ -27,7 +29,7 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View style={styles.container}>
-      <Text>This is your new component</Text>
+      <Text>This is your new component {{ demo }}</Text>
     </View>
   );
 }
